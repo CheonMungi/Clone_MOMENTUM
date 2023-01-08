@@ -54,15 +54,6 @@ img
     text-shadow: 10px 10px 20px #000;
     font-size: 2em;
     font-weight: bold;
-    /* display: inline;
-    margin: auto;
-    text-align: center;
-    margin-top: 5%;
-    margin-left: -3%;
-    color:#fff;
-    text-shadow: 10px 10px 20px #000;
-    font-size: 2em;
-    font-weight: bold; */
 }
 
 .todoDiv 
@@ -78,11 +69,11 @@ img
 
 .quoteDiv
 {
+    position: absolute;
     display: block;
-
     text-align: left;
-    margin-top: 350px;
-    margin-left: 20px;
+    margin-top: 18%;
+    margin-left: 1%;
     color: #fff;
     font-weight: bolder;
 }
@@ -110,4 +101,12 @@ img
     width: 100px;
     height: 40px;
     opacity: 70%;
+}
+
+.deleteBtn
+{
+    /* border: none; */
+    width: 40px;
+    height: 100%;
+    opacity: 100%; 
 }

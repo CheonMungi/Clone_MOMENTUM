@@ -24,7 +24,6 @@ function onLogoutSubmit(event)
     localStorage.removeItem(USERNAME_KEY);
     greetingForm.classList.remove(OPEN_GREETINGS_CLASSNAME);
     greetingForm.classList.add(HIDDEN_CLASSNAME);
-    
     loginForm.classList.add(OPEN_INPUTFORM_CLASSNAME);
 }
 
@@ -32,7 +31,7 @@ function onLogoutSubmit(event)
 function paintGreetings()
 {
     const userName = localStorage.getItem(USERNAME_KEY);
-    greeting.innerText = `ようこそ ${userName}様`; // greeting.innerText = "Hello " + userName;
+    greeting.innerText = `Welcome ${userName}`; // greeting.innerText = "Hello " + userName;
     greetingForm.classList.remove(HIDDEN_CLASSNAME);
     greetingForm.classList.add(OPEN_GREETINGS_CLASSNAME);
 
@@ -53,10 +52,6 @@ const savedUserName = localStorage.getItem(USERNAME_KEY);
 if(savedUserName === null)
 {
     // show the form.
-//    loginForm.classList.remove(HIDDEN_CLASSNAME);
-//    loginForm.classList.add(OPEN_INPUTFORM_CLASSNAME);
-
-//    loginForm.addEventListener("submit", onLoginSubmit); 
     paintLogin();
 }
 else
