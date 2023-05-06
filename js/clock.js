@@ -1,6 +1,9 @@
-const clockDiv = document.querySelector(".clockDiv");
+const clockDiv = document.querySelector(".clock-div");
 const clock = clockDiv.querySelector("#clock");
 
+/**
+ * 현재 시간
+ */
 function getClock()
 {
     const date = new Date();
