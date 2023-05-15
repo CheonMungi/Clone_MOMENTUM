@@ -29,3 +29,6 @@
 
 ## 다음 목표
 * React를 이용한 MOMENTUM 웹 사이트 리뉴얼
+
+##
+#### 강의 : https://nomadcoders.co/javascript-for-beginners
