@@ -1,6 +1,6 @@
 # Clone_MOMENTUM
 
-## Link : https://cheonmungi.github.io/Clone_MOMENTUM/
+## Link : https://mungicheon.github.io/Clone_MOMENTUM/
 
 ## MOMENTUM 웹 페이지
 
@@ -17,6 +17,7 @@
   * TODO List 삭제
   * 로그인/로그아웃 시 TODO List 표시/비표시 전환
 * 현재 위치 및 날씨(API)
+  * API Key 삭제했으므로 실행불가. 로컬에서 사용할 경우 API Key 재설정 필요
 * 랜덤 명언집
 
 ### 느낀 점
